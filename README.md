@@ -1,7 +1,7 @@
 English | [简体中文](./README.zh.md)
 
 <div align="center">
-  <h1>MystikStudio-ServerKit-V3.1</h1>
+  <h1>MystikIM-ServerKit-V3.1</h1>
   <p><b>Unofficial</b> compatibility fork, updated to run on 7 Days to Die game version <b>V3.1</b> ("Dead Hot Summer" and later).<br/>
   Not affiliated with or endorsed by the original developers.</p>
 </div>

@@ -1,4 +1,4 @@
-## 10.53-v3.1 (2026-08-15) — MystikStudio-ServerKit-V3.1 fork
+## 10.53-v3.1 (2026-08-15) — MystikIM-ServerKit-V3.1 fork
 Compatibility update on top of Shisanlin's Pro3.2 (10.53) build, for game version V3.1 ("Dead Hot Summer" and later). All entries below are compatibility fixes for the V3.0/V3.1 modding API rework — no new features were added, everything else is unchanged from Pro3.2.
 
 ### Fixed
