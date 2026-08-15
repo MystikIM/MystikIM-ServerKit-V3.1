@@ -1,0 +1,1 @@
+import{a2 as p,o as i,c as l,bk as _,bl as f}from"./index-DywYKl3i.js";const m={name:"loginSuccess"},h=Object.assign(m,{setup(k){const s=_(),o=f(),e=s.query,t=e.steamId,r=e.playerName,n=e.accessToken,c=e.expiresIn,a=e.refreshToken,u=e.redirect;return p().loginByToken(r??t,n,c,a),o.push(u??"/"),(I,y)=>(i(),l("div"))}});export{h as default};

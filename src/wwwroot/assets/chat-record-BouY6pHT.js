@@ -1,0 +1,1 @@
+import{az as t}from"./index-DywYKl3i.js";const d=e=>t.get("/ChatRecord",{params:e}),o=e=>t.delete("/ChatRecord/"+e),s=(e,r=!1)=>t.delete("/ChatRecord",{params:{ids:e,deleteAll:r}});export{o as a,s as d,d as g};

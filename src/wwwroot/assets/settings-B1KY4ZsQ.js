@@ -1,0 +1,1 @@
+import{az as s}from"./index-DywYKl3i.js";const n=(t,e)=>s.get("/Settings/"+t,{params:{language:e}}),r=(t,e)=>s.put("/Settings/"+t,e),g=(t,e)=>s.delete("/Settings/"+t,{params:{language:e}});export{n as g,g as r,r as u};

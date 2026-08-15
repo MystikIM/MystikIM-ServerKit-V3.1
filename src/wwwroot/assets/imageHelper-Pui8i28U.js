@@ -1,0 +1,1 @@
+const r=(t,F=null)=>t?F?(F.toUpperCase()!=="FFFFFF"&&(t+="__"+F),"/api/ItemIcons/"+t+".png"):"/api/ItemIcons/"+t:null,e=(t,F=null)=>t?(F&&F.toUpperCase()!=="FFFFFF"&&(t+="__"+F),"/api/UiIcons/"+t+".png"):null;export{r as a,e as g};

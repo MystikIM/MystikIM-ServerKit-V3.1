@@ -1,0 +1,23 @@
+﻿namespace SdtdServerKit.Extensions
+{
+    /// <summary>
+    /// Extension methods for converting SpawnPosition to Model.
+    /// </summary>
+    public static class SpawnPositionExtension
+    {
+        /// <summary>
+        /// Converts a SpawnPosition object to a Models.SpawnPosition object.
+        /// </summary>
+        /// <param name="spawnPosition">The SpawnPosition object to convert.</param>
+        /// <returns>The converted Models.SpawnPosition object.</returns>
+        public static Models.SpawnPosition ToModel(this SpawnPosition spawnPosition)
+        {
+            return new Models.SpawnPosition()
+            {
+                ClrIdx = 0, // V3.1: cluster-index concept removed from game's SpawnPosition
+                Position = spawnPosition.position.ToPosition(),
+                Heading = spawnPosition.heading,
+            };
+        }
+    }
+}
